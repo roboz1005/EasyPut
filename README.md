@@ -167,8 +167,3 @@ If EasyPut saves you time, consider buying the developer a coffee:
 ## 📄 License
  
 This project is licensed under the [Apache 2.0](LICENSE).
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
