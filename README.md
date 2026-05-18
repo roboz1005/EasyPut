@@ -4,7 +4,11 @@ A one-click numpad sidebar for fast score entry — built for Udvash script eval
 
 
 ---
-## Guideline video: [How to use]() 
+## Guideline video: [How to use](https://www.youtube.com/watch?v=8r1FZxSl7cQ)
+
+## Download EasyPut (free): [Download](https://github.com/roboz1005/EasyPut)
+
+## Form Link (For supporters): [Form](https://forms.gle/bkJdmLUruM2HKdjk7)
 ## 📸 Screenshots
 
 ><img width="1570" height="626" alt="Screenshot 2026-05-18 164818" src="https://github.com/user-attachments/assets/d8c76c6a-fa48-4f1b-bef6-714d5549ddc9" />
