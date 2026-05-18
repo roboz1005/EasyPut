@@ -1,94 +1,177 @@
 # ⌨️ EasyPut
 
-> One-click number input for repetitive form filling — built for Udvash and beyond.
+> A one-click numpad sidebar for fast score entry — built for Udvash students tired of typing evaluation marks on phone or laptop.
 
-Tired of typing the same marks over and over for every student? EasyPut adds a small numpad panel to any webpage so you can fill inputs and submit forms with a single tap — no keyboard needed.
-*Made with frustration and too many repeated keystrokes — EasyPut *
+[![Version](https://img.shields.io/badge/version-1.1.0-blue.svg)](https://github.com/yourusername/easyput/releases)
+[![Manifest](https://img.shields.io/badge/manifest-v3-green.svg)](https://developer.chrome.com/docs/extensions/mv3/intro/)
+[![License](https://img.shields.io/badge/license-MIT-orange.svg)](LICENSE)
+
 ---
-## Full guide on installation and use
-    Youtube link: 
+## Guideline video: [How to use]() 
+## 📸 Screenshots
 
-## 🚀 Installation
+><img width="1570" height="626" alt="Screenshot 2026-05-18 164818" src="https://github.com/user-attachments/assets/d8c76c6a-fa48-4f1b-bef6-714d5549ddc9" />
 
-# Desktop
-1. Download and unzip this repository
-2. Open Chrome → go to `chrome://extensions`
-3. Turn on **Developer mode** (top-right toggle)
-4. Click **Load unpacked**
-5. Select the `EasyPut_extension_1.1.0` folder
-6. The EasyPut icon will appear in your toolbar — click it to get started
-
-# Android
-1. Download .Zip file (No need to unzip it)
-2. Install Kiwi browser. This is not available in google play store.
-    Link: https://kiwi-browser-fast-quiet.en.softonic.com/android
-3. Open the app and click on the three dot
-4. Click **Extension**
-5. Click **+(from .zip/.crx/.user.js)**
-6. Select the `EasyPut_extension_1.1.0.zip`. This will add the extension to your browser.
-7. Now the extension is started automatically. 
-    If not you can find the extension in the three dot--> at the bottom (scroll if needed)
-    Select Easyput and check if it is `ON`. If not then click it to turn on. 
-    Then open udvash script evaluation site. It will be there (you might need to refresh)
+><img width="941" height="528" alt="Screenshot 2026-05-18 165303" src="https://github.com/user-attachments/assets/c3a10de8-4472-496f-8649-276a14663979" />
 
 
-
-## 🛠️ First-Time Setup
-
-1. Go to the page where you want to use EasyPut (e.g. your marks entry page)
-2. Click the ⚙️ icon in the EasyPut sidebar to open Settings
-3. Selectors tab → Under Input Field, click + Add New, give it a name, and paste this in the input box.
-    `this`
-4. Do the same for the Submit Button, give it a name, and paste this in the input box.
-    `this`
-5. Buttons tab → Set the values you want on each numpad key (e.g. 10, 20, 30...)
-6. Layout tab → Adjust columns/rows to fit your screen
-7. Click any numpad button — it fills the input and submits automatically!
 
 ---
 
-## ✨ Features at a Glance
+## ✨ What It Does
 
-| Feature | Details |
+EasyPut injects a sleek numpad sidebar into any webpage, letting you click numbers to fill in score fields instead of typing them manually. It works on **any website**, remembers your settings, and stays out of your way when you don't need it.
+
+**Perfect for:**
+- Entering Udvash script evaluation marks quickly
+- Any repetitive number-entry workflow on the web
+
+---
+
+## 🚀 Features
+
+| Feature | Description |
 |---|---|
-| Numpad buttons | Up to 12 buttons with any values you set |
-| One-click fill & submit | Fills input and auto-submits in one tap |
-| Dock anywhere | Pin to left, right, top, or bottom edge |
-| Floating panel | Detach as a draggable, resizable popup |
-| Enable/disable toggle | Turn off without reloading the page |
-| Saves your settings | Presets and layout persist across sessions |
-| Works on SPAs | Re-attaches after navigation in single-page apps |
+| **One-click numpad** | Click buttons (0–10) to instantly fill any input field |
+| **Visual element picker** | Click any input or submit button on the page to target it — no CSS knowledge needed |
+| **Sidebar & floating modes** | Dock the panel to any edge (left, right, top, bottom) or detach it as a draggable floating window |
+| **Customizable buttons** | Edit button values and grid layout (rows × columns) to fit your use case |
+| **Selector presets** | Save and reuse input/submit targets across sessions — switch with a dropdown |
+| **SPA-aware** | Automatically re-injects on single-page app navigation (React, Vue, etc.) |
+| **Persistent state** | All settings survive page reloads via `chrome.storage.local` |
+| **Enable/Disable toggle** | Turn the extension on or off from the popup without uninstalling |
+
+---
+
+## 🛠️ Installation
+
+> **EasyPut is not yet on the Chrome Web Store.** Install it manually in developer mode.
+
+### Step 1 — Download the extension
+
+Download the latest `.zip` from the [Download](https://github.com/roboz1005/EasyPut) page and unzip it to a folder on your computer.
+
+> <img width="984" height="482" alt="Screenshot 2026-05-18 160907" src="https://github.com/user-attachments/assets/c0af4faf-f8d0-4d52-ad96-37adbacc9256" />
+
+
+---
+
+### Step 2 — Open Chrome Extensions
+
+In your Chrome browser, navigate to:
+
+```
+chrome://extensions
+```
+
+Or go to **Menu (⋮) → Extensions → Manage Extensions**.
+
+> <img width="1228" height="689" alt="Screenshot 2026-05-18 161435" src="https://github.com/user-attachments/assets/11ff348b-3267-4988-8b8e-e8301a455789" />
+
+
+---
+
+### Step 3 — Enable Developer Mode
+
+Toggle **Developer mode** on using the switch in the top-right corner of the Extensions page.
+
+> <img width="1554" height="415" alt="Screenshot 2026-05-18 161807" src="https://github.com/user-attachments/assets/3da9c8a1-8bd1-44ea-bbb3-27d714b7e3f7" />
+
+
+---
+
+### Step 4 — Load the extension
+
+Click **Load unpacked** and select the unzipped `EasyPut_extension_1.1.0` folder.
+
+> <img width="929" height="505" alt="Screenshot 2026-05-18 162133" src="https://github.com/user-attachments/assets/da0882e8-6c2d-4d3a-908a-cfee9b20797f" />
+
+
+---
+
+### Step 5 — Pin the extension (optional)
+
+Click the puzzle piece 🧩 icon in Chrome's toolbar, find **EasyPut**, and click the pin icon to keep it visible.
+
+> <img width="510" height="459" alt="Screenshot 2026-05-18 162329" src="https://github.com/user-attachments/assets/ae09e83d-3e8f-4e11-a6e6-d6d908dd0a53" />
+
+---
+
+## 📖 How to Use
+
+### Targeting an input field
+
+1. Open the page where you want to enter scores.
+> <img width="1199" height="664" alt="Screenshot 2026-05-18 162858" src="https://github.com/user-attachments/assets/9dc1307d-914d-4514-b49e-7ad917473fc8" />
+
+2. The EasyPut sidebar will appear on the right side of the screen.
+3. Go to the **Selector** tab inside the panel.
+4. Click **Pick Input** and then click the score input field on the page — EasyPut will capture its selector automatically.
+5. Optionally click **Pick Submit** to also capture the submit/save button.
+
+---
+
+### Entering scores
+
+Once your input field is targeted, click any numpad button (0, 1, 2 … 10) to instantly fill the field with that value. If a submit selector is set, click the **Submit** button in the panel to trigger form submission.
+
+---
+
+### Saving presets
+
+If you use the same input field repeatedly (e.g., across multiple exam scripts), save it as a **preset**:
+
+1. After picking your selectors, click **Save Preset** and give it a label.
+2. Next time, select the preset from the dropdown — no re-picking needed.
+
+---
+
+### Switching modes
+
+- **Sidebar mode** — docked to an edge of the page. Drag the resizer handle to adjust width.
+- **Floating mode** — detach the panel so it floats freely. Drag it anywhere on screen.
+
+Use the **Layout** tab in the settings to switch between modes and choose your dock edge (left / right / top / bottom).
+---
+
+### Customizing buttons
+
+Go to the **Buttons** tab in the settings panel to:
+- Change the value of any button slot
+- Set a slot to `NONE` to hide it
+- Adjust the grid (rows and columns)
+
+---
+
+### Enabling / Disabling
+
+Click the EasyPut icon in the Chrome toolbar to open the popup. Use the **ON / OFF** toggle to enable or disable the sidebar without uninstalling the extension.
 
 ---
 
 ## 🔒 Permissions
 
-| Permission | Why |
+| Permission | Why it's needed |
 |---|---|
-| `storage` | Saves your presets and settings |
-| `activeTab` | Reads the current tab to inject the sidebar |
-| `scripting` | Injects the numpad UI into the page |
-| `host_permissions: <all_urls>` | Lets EasyPut work on any website |
+| `storage` | Saves your selector targets, presets, and layout settings locally |
+| `activeTab` | Communicates with the current tab when toggling via popup |
+| `scripting` | Injects the numpad sidebar into pages |
+| `host_permissions: <all_urls>` | Allows the sidebar to work on any website |
 
-**No data ever leaves your browser.** Everything is stored locally.
-
----
-
-## ⚠️ Known Limitations
-
-- Some websites with strict security policies (CSP) may block the sidebar from loading
-- If a website changes its layout, you may need to update your saved CSS selector
-- The floating panel position resets on page reload (docked position is always saved)
-- You cannot open chatgpt while using the extension, you need to completely turn it off to use chatgpt.
-
----
-
-## ☕ Support the Project
-
-If EasyPut saves you time, consider a small appreciation!
-
-    **Buy me a coffee** you can find the method inside the extension
+> No data is ever sent to any server. Everything stays in your browser.
 
 ---
 
 
+## ☕ Support
+
+If EasyPut saves you time, consider buying the developer a coffee:
+
+## 📄 License
+ 
+This project is licensed under the [Apache 2.0](LICENSE).
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
