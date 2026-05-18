@@ -1,6 +1,6 @@
 # ⌨️ EasyPut
 
-> A one-click numpad sidebar for fast score entry — built for Udvash students tired of typing evaluation marks on phone or laptop.
+> A one-click numpad sidebar for fast score entry — built for Udvash script evaluator tired of typing evaluation marks on phone or laptop.
 
 [![Version](https://img.shields.io/badge/version-1.1.0-blue.svg)](https://github.com/yourusername/easyput/releases)
 [![Manifest](https://img.shields.io/badge/manifest-v3-green.svg)](https://developer.chrome.com/docs/extensions/mv3/intro/)
