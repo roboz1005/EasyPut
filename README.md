@@ -2,6 +2,7 @@
 
 A one-click numpad sidebar for fast score entry — built for Udvash script evaluator tired of typing evaluation marks on phone or laptop. <br> <br>
 - This is not officially published by udvash, just a personal project
+- v1.3 contains coment pasting and storing feature with just 2 clicks
 
 
 ---
