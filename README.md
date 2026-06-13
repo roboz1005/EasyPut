@@ -1,6 +1,7 @@
 # ⌨️ EasyPut
 
-A one-click numpad sidebar for fast score entry — built for Udvash script evaluator tired of typing evaluation marks on phone or laptop.
+A one-click numpad sidebar for fast score entry — built for Udvash script evaluator tired of typing evaluation marks on phone or laptop. <br> <br>
+- This is not officially published by udvash, just a personal project
 
 
 ---
