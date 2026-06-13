@@ -5,9 +5,11 @@ A one-click numpad sidebar for fast score entry — built for Udvash script eval
 
 ---
 ## Guideline video: 
-Latest(V 1.3) [How to use]
-Old [How to use](https://www.youtube.com/watch?v=8r1FZxSl7cQ)
-   Download latest versions: [EasyPut_extension_1.3_udvash](https://github.com/roboz1005/EasyPut/blob/main/EasyPut_extension_1.3_udvash.zip) for laptop/pc  and  [EasyPut_Udvash_v1.3.apk](https://github.com/roboz1005/EasyPut/blob/main/EasyPut_Udvash_v1.3.apk) for android
+Latest(V 1.3) [How to use] <br>
+Old [How to use](https://www.youtube.com/watch?v=8r1FZxSl7cQ) <br>
+Download latest versions: <br>
+[EasyPut_extension_1.3_udvash](https://github.com/roboz1005/EasyPut/blob/main/EasyPut_extension_1.3_udvash.zip) for laptop/pc <br>
+[EasyPut_Udvash_v1.3.apk](https://github.com/roboz1005/EasyPut/blob/main/EasyPut_Udvash_v1.3.apk) for android
 
 ## Download EasyPut (free): [Download](https://github.com/roboz1005/EasyPut)
 
