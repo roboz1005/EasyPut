@@ -11,7 +11,17 @@ Latest(V 1.3) [How to use](https://youtu.be/RkIq8L0B06U?si=Nxkju1O6MnNRAwIa). Fo
 Old [How to use](https://www.youtube.com/watch?v=8r1FZxSl7cQ) <br>
 Download latest versions: <br>
 [EasyPut_extension_1.3_udvash](https://github.com/roboz1005/EasyPut/blob/main/EasyPut_extension_1.3_udvash.zip) for laptop/pc <br>
-[EasyPut_Udvash_v1.3.apk](https://github.com/roboz1005/EasyPut/blob/main/EasyPut_Udvash_v1.3.apk) for android
+[EasyPut_Udvash_v1.3.apk](https://github.com/roboz1005/EasyPut/blob/main/EasyPut_Udvash_v1.3.apk) for android <br>
+
+- you can easily paste any text/comment with just 2 clicks, 
+  process: 
+  - first go to paste tab then add a preset (you can add multiple presets for switching to different scripts comments easily)
+  - add text buttons as much as you need, set text and shortcut(optional) which you want to comment
+  - after adding buttons now go to script and click the button you want to comment and click where you to paste the text (no need to select text tool)
+
+ - you can input marks with a button click without typing it
+   - set the values of buttons in the button tab (i.e 2.5, 3, 0, 10 etc)
+   - after setup go to script, evaluate it and click the button which will automatically input the mark, now submit your script easy
 
 ## Form Link (For supporters): [Form](https://forms.gle/bkJdmLUruM2HKdjk7)
 ## 📸 Screenshots
